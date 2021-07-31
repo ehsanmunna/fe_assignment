@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -42,6 +43,12 @@
   background: lightgray;
   border: 3px dotted gray;
   border-radius: 5px;
+}
+.attendance-score{
+  font-size: 2.5em;
+}
+.text-bold{
+  font-weight: 700;
 }
 
 /* width */
