@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -28,6 +29,62 @@
   color: #61dafb;
 }
 
+.container-background{
+  background-color: aliceblue;
+}
+.card-height{
+  height: 250px;
+  overflow: auto;
+}
+
+.upload-area{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: lightgray;
+  border: 3px dotted gray;
+  border-radius: 5px;
+}
+.attendance-score{
+  font-size: 2.5em;
+}
+.text-bold{
+  font-weight: 700;
+}
+
+/* bootstrap customize */
+.list-group-item{
+  padding: 1rem 1rem;
+  padding-left: 0;
+  margin-bottom: 0.5rem;
+  border: none;
+  text-align: left;
+  color: rgba(0,0,0,.5)!important;
+}
+.list-group-item span{
+  padding-left: 15px;
+}
+.list-border{
+  border-left: 1px solid;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
