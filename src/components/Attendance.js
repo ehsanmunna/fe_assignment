@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { cardPaddingBottom, paddingBottom } from '../constants';
 import { MARKS } from '../__mocks__/data';
 
 const Attendance = () => {
@@ -7,9 +8,9 @@ const Attendance = () => {
     setSelectedClient(event.target.value);
     // marks = MARKS[selectedClient];
 }
-
+  
   return (
-    <div data-testid="attendance-card">
+    <div data-testid="attendance-card" style={cardPaddingBottom}>
       {/* add your code here */}
       <div className="card">
         <div className="card-body">
@@ -29,7 +30,7 @@ const Attendance = () => {
           </div>
         </div>
         <div className="col-8">
-          <div className="row">
+          <div className="row" style={paddingBottom}>
             <div className="col">
               <div>Accounts</div>
               <div>{MARKS[selectedClient].cgpa.accounts}/{MARKS[selectedClient].total.accounts}</div>
@@ -39,7 +40,7 @@ const Attendance = () => {
               <div>{MARKS[selectedClient].cgpa.inc_tax}/{MARKS[selectedClient].total.inc_tax}</div>
             </div>
           </div>
-          <div className="row">
+          <div className="row" style={paddingBottom}>
             <div className="col">
               <div>Bus. Study</div>
               <div>{MARKS[selectedClient].cgpa.bus_study}/{MARKS[selectedClient].total.bus_study}</div>
@@ -49,7 +50,7 @@ const Attendance = () => {
               <div>{MARKS[selectedClient].cgpa.french}/{MARKS[selectedClient].total.french}</div>
             </div>
           </div>
-          <div className="row">
+          <div className="row" style={paddingBottom}>
             <div className="col">
               <div>Economics</div>
               <div>{MARKS[selectedClient].cgpa.economics}/{MARKS[selectedClient].total.economics}</div>
