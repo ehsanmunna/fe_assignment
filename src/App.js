@@ -11,7 +11,7 @@ import AssignmentBlock from './components/AssignmentBlock';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container-background">
       <div className='container'>
         <div className="row">
           <div className="col-2">
