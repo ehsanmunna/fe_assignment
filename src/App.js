@@ -2,13 +2,16 @@ import React from 'react'
 import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import SidebarBlock from './components/SidebarBlock';
 
 function App() {
   return (
     <div className="App">
       <div className='container'>
         <div className="row">
-          <div className="col-2">sidebar</div>
+          <div className="col-2">
+            <SidebarBlock/>
+          </div>
           <div className="col-10">dashboard</div>
         </div>
       </div>
