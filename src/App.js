@@ -3,6 +3,11 @@ import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import SidebarBlock from './components/SidebarBlock';
+import DashboardHeader from './components/DashboardHeader';
+import AttendanceBlock from './components/AttendanceBlock';
+import PerformanceBlock from './components/PerformanceBlock';
+import CalendarBlock from './components/CalendarBlock';
+import AssignmentBlock from './components/AssignmentBlock';
 
 function App() {
   return (
@@ -10,9 +15,32 @@ function App() {
       <div className='container'>
         <div className="row">
           <div className="col-2">
-            <SidebarBlock/>
+            <SidebarBlock />
           </div>
-          <div className="col-10">dashboard</div>
+          <div className="col-10">
+              <DashboardHeader />
+              <div className="row">
+                <div className="col">
+                  <div>
+                    <AttendanceBlock/>
+                  </div>
+                  <div>
+                    <PerformanceBlock/>
+                  </div>
+                </div>
+                <div className="col">
+                  <CalendarBlock/>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-9">
+                  <AssignmentBlock/>
+                </div>
+                <div className="col-3">
+                  Upload
+                </div>
+              </div>
+          </div>
         </div>
       </div>
       {/* <header className="App-header">

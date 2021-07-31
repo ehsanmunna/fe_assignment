@@ -4,6 +4,7 @@ const CGPACards = () => {
   return (
     <div data-testid="cgpa-cards">
       {/* include your code for cgpa cards here */}
+      cgpa cards
     </div>
   )
 }

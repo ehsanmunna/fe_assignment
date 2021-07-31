@@ -4,6 +4,7 @@ const Attendance = () => {
   return (
     <div data-testid="attendance-card">
       {/* add your code here */}
+      AttendanceBlock
     </div>
   )
 }

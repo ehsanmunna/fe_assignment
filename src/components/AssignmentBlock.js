@@ -6,6 +6,7 @@ const AssignmentBlock = () => {
       <select data-testid="select-subject">
       </select>
       {/* your table section should be added here */}
+      AssignmentBlock
     </>
   )
 }
