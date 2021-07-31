@@ -1,5 +1,6 @@
 import React from 'react';
 import { ASSIGNMENTS } from "../../src/__mocks__/data";
+import SubjectSelector from './SubjectSelector';
 const AssignmentBlock = () => {
 
   return (
@@ -14,14 +15,7 @@ const AssignmentBlock = () => {
               Assignment
             </div> 
             <div className="col-3">
-              <select class="form-select" aria-label="Default select example">
-                <option selected>Select Subject</option>
-                {
-                  ASSIGNMENTS.map(item => (
-                    <option value="{item.subject}">{item.subject}</option>
-                  ))
-                }
-              </select>
+              <SubjectSelector/>
             </div>
           </div>
         </div>
