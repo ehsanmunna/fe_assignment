@@ -8,6 +8,7 @@ import AttendanceBlock from './components/AttendanceBlock';
 import PerformanceBlock from './components/PerformanceBlock';
 import CalendarBlock from './components/CalendarBlock';
 import AssignmentBlock from './components/AssignmentBlock';
+import UploadBlock from './components/UploadBlock';
 
 function App() {
   return (
@@ -33,11 +34,11 @@ function App() {
                 </div>
               </div>
               <div className="row">
-                <div className="col-9">
+                <div className="col-8">
                   <AssignmentBlock/>
                 </div>
-                <div className="col-3">
-                  Upload
+                <div className="col">
+                  <UploadBlock/>
                 </div>
               </div>
           </div>

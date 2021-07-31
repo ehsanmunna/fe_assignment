@@ -32,8 +32,16 @@
   background-color: aliceblue;
 }
 .card-height{
-  height: 300px;
+  height: 250px;
   overflow: auto;
+}
+
+.upload-area{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: lightgray;
+  border: 3px dotted gray;
+  border-radius: 5px;
 }
 
 /* width */

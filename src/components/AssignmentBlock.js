@@ -11,10 +11,10 @@ const AssignmentBlock = () => {
       <div className="card">
         <div className="card-header">
           <div className="row">
-            <div className="col-2">
+            <div className="col-3">
               Assignment
             </div> 
-            <div className="col-3">
+            <div className="col-4">
               <SubjectSelector/>
             </div>
           </div>
