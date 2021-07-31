@@ -8,16 +8,27 @@ const SidebarBlock = () => {
       
     // </>
     <div className="list-group">
-    <a href="#" className="list-group-item list-group-item-action active" aria-current="true">
-      The current link item
+    <a href="#" className="list-group-item list-group-item-action">
+      <span className="list-border">University</span>
     </a>
-    <a href="#" className="list-group-item list-group-item-action">University</a>
-    <a href="#" className="list-group-item list-group-item-action">Dashboard</a>
-    <a href="#" className="list-group-item list-group-item-action">Calendar</a>
-    <a href="#" className="list-group-item list-group-item-action">Teachers</a>
-    <a href="#" className="list-group-item list-group-item-action">Course</a>
-    <a href="#" className="list-group-item list-group-item-action">Attendance</a>
-    <a href="#" className="list-group-item list-group-item-action">Assignment</a>
+    <a href="#" className="list-group-item list-group-item-action">
+      <span className="list-border text-bold">Dashboard</span>
+    </a>
+    <a href="#" className="list-group-item list-group-item-action">
+      <span className="list-border">Calendar</span>
+    </a>
+    <a href="#" className="list-group-item list-group-item-action">
+      <span>Teachers</span>
+    </a>
+    <a href="#" className="list-group-item list-group-item-action">
+      <span>Course</span>
+    </a>
+    <a href="#" className="list-group-item list-group-item-action">
+      <span className="list-border">Attendance</span>
+    </a>
+    <a href="#" className="list-group-item list-group-item-action">
+      <span className="list-border">Assignment</span>
+    </a>
   </div>
   )
 }

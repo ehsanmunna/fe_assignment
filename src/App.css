@@ -51,6 +51,21 @@
   font-weight: 700;
 }
 
+/* bootstrap customize */
+.list-group-item{
+  padding: 1rem 1rem;
+  padding-left: 0;
+  margin-bottom: 0.5rem;
+  border: none;
+  text-align: left;
+  color: rgba(0,0,0,.5)!important;
+}
+.list-group-item span{
+  padding-left: 15px;
+}
+.list-border{
+  border-left: 1px solid;
+}
 /* width */
 ::-webkit-scrollbar {
   width: 5px;
